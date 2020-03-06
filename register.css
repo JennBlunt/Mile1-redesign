@@ -1,0 +1,113 @@
+@font-face {
+  font-family: BonvenoCF;
+  src: url(./BonvenoCF/BonvenoCF-Light.otf);
+}
+
+@font-face {
+  font-family: Martel-lite;
+  src: url(./Martel/Martel-Light.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: BonvenoCF;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+  background-color: #ffe5a9;
+  font-size: 0.75rem;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1vh 40vw 1vh 5vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#logo {
+  height: 8vh;
+}
+
+#mile1 {
+  height: 7vh;
+}
+
+h1 {
+  font-size: 24px;
+  color: #525266;
+}
+
+.register-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 200px;
+}
+
+.email, .password {
+  width: 350px;
+  min-width: 100px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+::-webkit-input-placeholder {
+  font-family: Martel-lite;
+  padding-left: 10px;
+}
+
+:-ms-input-placeholder {
+  font-family: Martel-lite;
+  padding-left: 10px;
+}
+
+::-ms-input-placeholder {
+  font-family: Martel-lite;
+  padding-left: 10px;
+}
+
+::placeholder {
+  font-family: Martel-lite;
+  padding-left: 10px;
+}
+
+button {
+  width: 100px;
+  height: 25px;
+  color: #525266;
+  border: 1px solid #525266;
+  border-radius: 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=register.css.map */

@@ -1,0 +1,78 @@
+@font-face {
+    font-family: BonvenoCF;
+    src: url(./BonvenoCF/BonvenoCF-Light.otf);
+  }
+
+@font-face {
+    font-family: Martel-lite;
+    src: url(./Martel/Martel-Light.ttf);
+  } 
+
+  body {
+    margin: 0;
+    font-family: BonvenoCF;
+}
+
+.nav {
+    display: flex; 
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    background-color: #ffe5a9;
+    font-size: 0.75rem;
+ }
+ 
+ .logo {
+     display: flex;
+     padding: 1vh 40vw 1vh 5vw;
+     align-items: center;
+     justify-content: center;
+     align-content: center;
+ 
+ }
+ 
+ #logo {
+     height: 8vh;
+ }
+ 
+ #mile1 {
+     height: 7vh;
+ }
+
+ h1 {
+    font-size: 24px;
+    color: #525266;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.email, .password  {
+    width: 350px; 
+    min-width: 100px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+::placeholder {
+    font-family: Martel-lite;
+    padding-left: 10px;
+}
+
+button {
+    width: 100px;
+    height: 25px;
+    color: #525266;
+    border: 1px solid #525266;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+

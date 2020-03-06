@@ -1,0 +1,295 @@
+
+$breakpoint-large-phone: 425px;
+$breakpoint-ipad: 768px;
+$breakpoint-laptop: 1024px;
+
+@media only screen 
+and (max-width: $breakpoint-large-phone)
+and (orientation: portrait) { 
+
+    .nav{
+        width: 100%;
+        height: 60px;
+    }   
+
+    #mile1 {
+        display: none;
+    }
+
+    #logo {
+        height: 40px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .links{
+        display: none;
+    }
+
+    #responsive-login {
+        display: flex;
+        align-items: center;
+        font-family: BonvenoCF;
+        height: 10vh;
+        font-size: 1.2rem;
+        margin-right: 3rem;
+        text-decoration-line: none;
+        color: #525266;
+    }
+
+    .color-block {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100%
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .color-block__text {
+        width: 100vw;
+        height: 80%;
+        h1 {
+            width: 80vw;
+        }
+        p {
+            width: 80vw;
+            font-size: 1.2rem;
+        }
+    }
+
+    .color-block__img {
+        background-image: url('./images/AdobeStock_222771972.jpeg');
+        width: 100%;
+        height: 35%;
+        margin-top: 45px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+        
+    .partner-logos {
+        height: 80px;
+        width: 100%;
+        img {
+            max-width: 60px;
+            min-width: 40px;
+        }
+    }
+
+    #responsive-cta {
+        display: flex;  
+        flex-direction: column;
+        align-items: center;
+        font-family: BonvenoCF;
+        height: 100px;
+        background-color: #cbbeb5;
+        padding-bottom: 40px;
+        button {
+        color:  #ff6666;
+        font-size: 1.2rem;
+        background-color: white;	
+        height: 50px;
+        width: 200px;
+        border-radius: 25px;
+        
+        }
+    }
+
+    .full-width {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding-left: 25px;
+        padding-bottom: 15px;
+        p {
+            padding-bottom: 25px;        
+        }
+    }
+
+    .color-block__image {
+        display: none;
+    }
+
+    .shopper--demo {
+        display: none;
+    }
+
+    #contact {
+        width: 100%;
+        height: 500px;
+        input {
+            width: 230px;
+        }
+    }
+
+    #contact-image {
+        display: none;
+    }
+
+    .retailers--dash {
+        display: none;
+    }
+
+    .footer {
+        font-size: 0.8rem;
+        padding: 5%;
+        height: 60px;
+    }
+}
+
+
+/*  Tablet -> laptop screen */
+ @media only screen 
+ and (min-width: $breakpoint-ipad)
+ and (max-width: $breakpoint-laptop)
+ and (orientation: landscape) { 
+ 
+
+    #mile1 {
+        height: 50px;
+    }
+
+    .logo {
+    display: flex;
+    padding: 1vh 10vw 1vh 5vw;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+    }
+
+    #logo {
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    }
+
+    .nav {
+    display: flex; 
+    justify-content: flex-start;
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    background-color: #ffe5a9;
+    font-size: 0.75rem;
+    padding-left: 5%;
+    }
+
+    .links {
+    font-family: BonvenoCF;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    }
+
+    .links a {
+    font-size: 1.3rem;
+    margin-right: 1rem;
+    text-decoration-line: none;
+    color: #525266;
+    }
+
+
+    #responsive-login {
+    display: none;
+    }
+
+    .color-block {
+    display: flex;
+    height: 70%;  
+    }
+
+    .color-block__text {
+    padding-top: 10%;
+    width: 50vw;
+    h1 {
+        width: 40vw;
+    }
+    p {
+        width: 40vw;
+        font-size: 1.2rem;
+    }
+    }
+
+    .color-block__img {
+    width: 50vw;
+    background-position: 18%;
+    padding-top: 10%;
+    }
+
+    .partner-logos {
+    height: 130px;
+    width: 100%;
+    img {
+        width: 120px;
+    }
+    }
+
+    .full-width {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    p {
+        padding-bottom: 25px;        
+    }
+
+    }
+
+    .shopper--demo {
+    display: flex;
+    width: 100vw;
+    height: 35vh;
+    }
+
+    .screens {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 5vh;
+    width: 35vw;
+    padding: 2%;
+    img{
+        height: 25vh;
+        padding-top: 10px;
+        }
+    p {
+        font-size: 0.6rem;
+        width: 10vw;
+        }
+    }
+
+    #contact {
+    width: 50%;
+    height: 500px;
+    input {
+        width: 250px;
+        }
+    }
+
+    #retailers {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    img {
+        display: flex;
+        padding: 10% 10% 3% 10%;
+        height: 40vh;
+        }
+    }
+
+    .retailers--dash__disc {
+    width: 80vw;
+    padding-bottom: 5%;
+
+    }
+
+    .footer {
+            font-size: 0.8rem;
+    }
+
+}

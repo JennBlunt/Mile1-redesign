@@ -1,0 +1,158 @@
+/* Delivery booking form  */
+
+@font-face {
+    font-family: BonvenoCF;
+    src: url(./BonvenoCF/BonvenoCF-Light.otf);
+  }
+
+@font-face {
+    font-family: Martel-reg;
+    src: url(./Martel/Martel-Regular.ttf);
+  }  
+
+@font-face {
+    font-family: Martel-lite;
+    src: url(./Martel/Martel-Light.ttf);
+  }  
+
+@font-face {
+    font-family: Martel-X-lite;
+    src: url(./Martel/Martel-ExtraLight.ttf);
+  }  
+  
+@font-face {
+    font-family: Martel-bold;
+    src: url(./Martel/Martel-Bold.ttf);
+  }  
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 425px) 
+  and (orientation: portrait) 
+  { 
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Martel-bold;
+    }
+
+    h1 {
+        font-family: BonvenoCF;
+        text-align: center;
+    }
+
+    .nav {
+        width: 100%;
+        height: 150px;
+        background-color:  #ffe5a9;
+        padding: 3%;
+    }
+
+    .demo_logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    #logo {
+        width: 100px;
+    }
+
+
+    .delivery_form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        height: 100%;
+        padding-top: 40px;
+        color: white;
+        h1 {
+            font-size: 1.1rem;
+            color: #525266;
+        }
+
+    }
+
+    .days {
+        display: flex;
+        width: 95%;
+        color: #525266;
+        border-bottom: 1px solid #525266;
+        p {
+            display: flex;
+            text-align: center;
+            justify-content: space-evenly;
+            font-family: BonvenoCF;
+            font-size: 0.70rem;
+            margin: 2%;
+            padding-bottom: 20px;
+        }
+        
+    } 
+
+    p:visited {
+        color: #ff6666;
+    }
+    p:hover {
+        color: #ff6666;
+    }
+    p:active {
+        color: #ff6666;
+    }
+   
+   
+    .times {
+        margin-top: 30px;
+    }
+
+    .delivery_form--table {
+        display: flex;
+        justify-content: center;
+        align-items: space-around;
+        align-content: space-around;
+        color: #525266;
+    }
+
+    td button{ 
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        height: 60%;
+        font-size: .95rem;
+        margin-left: 30px;
+        // margin-bottom: 10px;
+        background-color: white;
+        color: #525266;
+        border: solid 1px #525266;
+        border-radius: 20px;
+    }
+
+    button:active {
+        color: #ff6666;
+    }
+    button:focus {
+        color: #ff6666;
+    }
+    td {
+     margin-right: 50px;
+     color: #525266;
+    }
+
+ .address {
+    width: 100%;
+    height: 250px;
+    background-color: #525266;
+    margin-top: 50px;
+    color: white;
+    padding-left: 40px;
+    h4{
+        margin: 20px 0px 20px 0px;;
+    }
+    p {
+        margin: 0;
+    }
+    }    
+}
